@@ -12,29 +12,27 @@
     }
    }
 
-@mixin basic-grid-container($nbr-row, $nbr-collums,$margin, $justify-content, $align-content){
+@mixin basic-grid-container($nbr-row, $nbr-collumns,$margin){
     display: grid;
-    grid-template-columns: repeat($nbr-collums, 1fr);
+    grid-template-columns: repeat($nbr-collumns, 1fr);
     grid-template-rows: repeat($nbr-row, 1fr);
     margin: $margin;
-    justify-content: $justify-content;
-    align-content: $align-content;
 }
 
-@mixin grid-container-ingrid($nbr-row, $nbr-collums,$margin, $justify-content, $align-content, $gridcolum , $gridrow){
+@mixin grid-container-ingrid($nbr-row, $nbr-collumns,$margin, $gridrow-start, $gridrow-end, $gridcolumn-start, $gricolumn-end){
     display: grid;
-    grid-template-columns: repeat($nbr-collums, 1fr);
+    grid-template-columns: repeat($nbr-collumns, 1fr);
     grid-template-rows: repeat($nbr-row, 1fr);
     margin: $margin;
-    justify-content: $justify-content;
-    align-content: $align-content;
-    grid-column: $gridcolum;
-    grid-row: $gridrow;
+    grid-column-start: $gridcolumn-start;
+    grid-column-end: $gricolumn-end;
+    grid-row-start: $gridrow-start;
+    grid-row-end: $gridrow-end;
 }
 
-@mixin grid-item($gridcolum , $gridrow , $justify-item , $align-item){
-    justify-items: $justify-item;
-    align-items: $align-item;
-    grid-column: $gridcolum;
-    grid-row: $gridrow;
+@mixin grid-item($gridrow-start, $gridrow-end, $gridcolumn-start, $gricolumn-end){
+    grid-column-start: $gridcolumn-start;
+    grid-column-end: $gricolumn-end;
+    grid-row-start: $gridrow-start;
+    grid-row-end: $gridrow-end;
 }
