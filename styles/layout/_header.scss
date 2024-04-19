@@ -15,3 +15,8 @@
 .item-header1{
     @include grid-item(1, 2, 1, 4);
 }
+.item-header2{
+    @include grid-item(1, 2, 1, 4);
+    align-content: center
+}
+.item-header3{
