@@ -1,22 +1,22 @@
 
-<h1 align="center">REPO NAME</h1>
+<h1 align="center">CV-HTML-CSS</h1>
 <p> 
     <img src='https://img.shields.io/badge/Mail-Renaud.Baussart%40proton.me-purple'>
     <a href='https://www.linkedin.com/in/renaud-baussart-278b362bb/'>
-        <img src='https://img.shields.io/badge/linkedin-blue'>
+        <img src='https://img.shields.io/badge/linkedin-blue' />
     </a>
     <a href='https://twitter.com/RenaudBaussart'>
-        <img src='https://img.shields.io/badge/Twitter%20%2F%20X-grey'>
+        <img src='https://img.shields.io/badge/Twitter%20%2F%20X-grey' />
     </a>
     <a href='https://github.com/RenaudBaussart/Memo-CheatSheet'>
-        <img src='https://img.shields.io/badge/My%20cheat%20sheet-lightyellow'>
+        <img src='https://img.shields.io/badge/My%20cheat%20sheet-lightyellow' />
         </a>
 </p>
 
 ---
 
 ### About The Project
-
+in this repo i will build a CV with html and css
 ---
 
 ### Built With
@@ -30,8 +30,13 @@
 ## checklist
 <details>
 <summary></summary>
-- [ ] do this <br>
-- [ ] and that<br>
+
+- [ ]make the html file<br>
+    - [ ]head<br>
+    - [ ]body<br>
+    - [ ]aside<br>
+    - [ ]footer<br>
+- [ ] make the css<br>
 
 </details>
 
