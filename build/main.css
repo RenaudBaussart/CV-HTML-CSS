@@ -42,6 +42,22 @@ img {
   background-color: rgba(255, 255, 255, 0);
 }
 
+body {
+  background-image: linear-gradient(to bottom right, rgba(141, 197, 225, 0.9), rgba(141, 183, 225, 0.62));
+}
+
+aside .cont-navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+a[class^=item-navbar] {
+  border: solid black 2px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  border-radius: 100%;
+}
+
 img.logo {
   width: 100px;
   height: 100px;
@@ -106,9 +122,8 @@ header h4 {
   display: flex;
   flex-direction: column;
   position: sticky;
-  top: 0%;
+  top: 40%;
   align-content: space-evenly;
-  height: 100%;
   width: 20%;
 }
 
@@ -122,6 +137,7 @@ header h4 {
 nav.navbar a {
   display: flex;
   position: static;
+  top: 0%;
 }
 
 .cont-main {
@@ -274,6 +290,13 @@ footer p {
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 20px;
+}
+
+html.index * .cont-main1, html.index * .cont-main2, html.index * .cont-main3 {
+  border: solid black 5px;
+  border-radius: 15%;
+  padding-left: 5%;
+  background-color: white;
 }
 
 /*# sourceMappingURL=main.css.map */

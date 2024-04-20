@@ -1,4 +1,5 @@
 @import "styles/base/_reset.scss";
+@import "styles/base/_website-wide-parameter.scss";
 
 @import "styles/components/logo.scss";
 
@@ -10,3 +11,5 @@
 @import "styles/layout/_aside.scss";
 @import "styles/layout/_main.scss";
 @import "styles/layout/_footer.scss";
+
+@import "styles/pages/_index.scss";
