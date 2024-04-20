@@ -16,3 +16,18 @@
         flex-direction: column;
     }
 }
+.logo1{
+    @include grid-item(1, 2, 1, 2);
+    align-self: center;
+    justify-self: center;
+}
+.logo2{
+    @include grid-item(2, 3 ,1, 2);
+    align-self: center;
+    justify-self: center;
+}
+.logo3{
+    @include grid-item( 3, 4, 1, 2);
+    align-self: center;
+    justify-self: center;
+}
