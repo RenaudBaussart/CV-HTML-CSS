@@ -8,3 +8,10 @@
     width: 20%;
 }
 
+.cont-navbar{
+    @include basic-grid-container(5, 1, 0px);
+}
+nav.navbar a{
+    display: flex;
+    position: static;
+}
