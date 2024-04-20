@@ -22,3 +22,10 @@
 .item-header3{
     @include grid-item(2, 4, 1, 4);
 }
+header{
+    h4{
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+}
