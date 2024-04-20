@@ -2,9 +2,8 @@
     display: flex;
     flex-direction: column;
     position: sticky;
-    top: 0%;
+    top: 40%;
     align-content: space-evenly;
-    height: 100%;
     width: 20%;
 }
 
@@ -14,4 +13,5 @@
 nav.navbar a{
     display: flex;
     position: static;
+    top: 0%;
 }
