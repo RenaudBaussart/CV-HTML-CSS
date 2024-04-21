@@ -1,0 +1,15 @@
+body{
+    background-image:linear-gradient(to bottom right, rgba(141, 197, 225, 0.90), rgba(141, 183, 225, 0.62));
+}
+aside{
+    .cont-navbar{
+        background-color: rgba($color: black, $alpha: 0.8);
+    }
+}
+a[class^=item-navbar]{
+    border: solid black 2px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    border-radius: 100%;
+}

@@ -1,0 +1,19 @@
+html.index *{
+    .cont-main1, .cont-main2, .cont-main3{
+        border: solid black 5px;
+        border-radius: 15%;
+        padding-left: 5%;
+        background-color: white;
+    }
+    li[class^="item"]{
+        border: solid black 5px;
+        border-radius: 10%;
+        background-color: white;
+    }
+}
+.cont-presentation{
+    border: solid black 5px;
+    border-radius: 10%;
+    background-color: white;
+    padding: 20px;
+}

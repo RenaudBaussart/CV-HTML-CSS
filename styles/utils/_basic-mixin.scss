@@ -1,0 +1,38 @@
+@mixin buttons($color, $hoverBackgroundColor) {
+    border: none;
+    color: $color;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: $base-font-size;
+    cursor: pointer;
+    display: inline-block;
+    &:hover {
+    color: white;
+    background-color: $hoverBackgroundColor;
+    }
+   }
+
+@mixin basic-grid-container($nbr-row, $nbr-collumns,$margin){
+    display: grid;
+    grid-template-columns: repeat($nbr-collumns, 1fr);
+    grid-template-rows: repeat($nbr-row, 1fr);
+    margin: $margin;
+}
+
+@mixin grid-container-ingrid($nbr-row, $nbr-collumns,$margin, $gridrow-start, $gridrow-end, $gridcolumn-start, $gricolumn-end){
+    display: grid;
+    grid-template-columns: repeat($nbr-collumns, 1fr);
+    grid-template-rows: repeat($nbr-row, 1fr);
+    margin: $margin;
+    grid-column-start: $gridcolumn-start;
+    grid-column-end: $gricolumn-end;
+    grid-row-start: $gridrow-start;
+    grid-row-end: $gridrow-end;
+}
+
+@mixin grid-item($gridrow-start, $gridrow-end, $gridcolumn-start, $gricolumn-end){
+    grid-column-start: $gridcolumn-start;
+    grid-column-end: $gricolumn-end;
+    grid-row-start: $gridrow-start;
+    grid-row-end: $gridrow-end;
+}

@@ -1,0 +1,17 @@
+.flex-aside{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 40%;
+    align-content: space-evenly;
+    width: 20%;
+}
+
+.cont-navbar{
+    @include basic-grid-container(5, 1, 0px);
+}
+nav.navbar a{
+    display: flex;
+    position: static;
+    top: 0%;
+}

@@ -1,0 +1,40 @@
+.cont-footer{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: 900px 1fr;
+
+    .footer-logo{
+        display: grid;
+        margin: 0px;
+        grid-template-columns: repeat(3,300px);
+        grid-template-rows: 100px;
+        @include grid-item(1,2,1,2);
+    }
+    .footer-contact{
+        display: flex;
+        position: static;
+        flex-direction: column;
+    }
+}
+.logo1{
+    @include grid-item(1, 2, 1, 2);
+    align-self: center;
+    justify-self: center;
+}
+.logo2{
+    @include grid-item(1,2 ,2, 3);
+    align-self: center;
+    justify-self: center;
+}
+.logo3{
+    @include grid-item( 1, 2, 3, 4);
+    align-self: center;
+    justify-self: center;
+}
+footer{
+    p{
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+}
