@@ -65,7 +65,7 @@ img.logo {
 
 .cont-header {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(2, 1fr);
   margin: 20px;
 }
@@ -77,6 +77,8 @@ img.logo {
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 3;
+  border: solid rgba(255, 255, 255, 0);
+  border-radius: 15%;
 }
 
 .cont-presentation {
@@ -107,9 +109,9 @@ img.logo {
 
 .item-header3 {
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 3;
   grid-row-start: 2;
-  grid-row-end: 4;
+  grid-row-end: 3;
 }
 
 header h4 {
@@ -269,19 +271,19 @@ main h4 {
 }
 
 .logo2 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
   align-self: center;
   justify-self: center;
 }
 
 .logo3 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
   align-self: center;
   justify-self: center;
 }
@@ -297,6 +299,18 @@ html.index * .cont-main1, html.index * .cont-main2, html.index * .cont-main3 {
   border-radius: 15%;
   padding-left: 5%;
   background-color: white;
+}
+html.index * li[class^=item] {
+  border: solid black 5px;
+  border-radius: 10%;
+  background-color: white;
+}
+
+.cont-presentation {
+  border: solid black 5px;
+  border-radius: 10%;
+  background-color: white;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
