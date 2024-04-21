@@ -5,10 +5,15 @@ html.index *{
         padding-left: 5%;
         background-color: white;
     }
-
     li[class^="item"]{
         border: solid black 5px;
         border-radius: 10%;
         background-color: white;
     }
+}
+.cont-presentation{
+    border: solid black 5px;
+    border-radius: 10%;
+    background-color: white;
+    padding: 20px;
 }
