@@ -6,4 +6,9 @@ html.index *{
         background-color: white;
     }
 
+    li[class^="item"]{
+        border: solid black 5px;
+        border-radius: 10%;
+        background-color: white;
+    }
 }
